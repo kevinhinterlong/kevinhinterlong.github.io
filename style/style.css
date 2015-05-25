@@ -106,14 +106,12 @@ ol li
 { width: 880px;
   position: relative;
   height: 10.9em;
-  right: 5%;
+  left: 30%;
   background: transparent;}
 
 #logo #logo_text 
 { position: absolute; 
-  top: 1em;
-  left: 0;
-  right: 0;}
+  top: 1em;}
 
 
 #logo h1, #logo h2
@@ -181,7 +179,7 @@ ul#menu li a:hover
 { color: #E4EC04;}
 
 #site_content
-{ width: 880px;
+{ width: 70em;
   overflow: hidden;
   margin: 2em 33em 0 auto;
   padding: 0 0 8em 0;} 
