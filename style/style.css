@@ -93,7 +93,7 @@ ol li
   text-align: center;
   margin: 20px auto;}
 
-#main, #menubar, #site_content, #footer
+#main, #menubar, #site_content
 { margin-left: auto; 
   margin-right: auto;}
   
@@ -108,12 +108,13 @@ ol li
 #logo
 { width: 880px;
   position: relative;
-  height: 140px;
+  height: 10.9em;
+  right: 5%;
   background: transparent;}
 
 #logo #logo_text 
 { position: absolute; 
-  top: 10px;
+  top: 1em;
   left: 0;
   right: 0;}
 
@@ -184,8 +185,8 @@ ul#menu li a:hover
 #site_content
 { width: 1080px;
   overflow: hidden;
-  margin: 25px auto 0 auto;
-  padding: 0 0 10px 0;} 
+  margin: 2em 33em 0 auto;
+  padding: 0 0 8em 0;} 
 
 #sidebar_container
 { float: right;
