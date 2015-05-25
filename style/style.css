@@ -94,7 +94,11 @@ ol li
   margin: 20px auto;}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #main, #menubar, #site_content
+=======
+#main, #logo, #menubar, #site_content, #footer
+>>>>>>> parent of 8c3f8c0... tons of minor changes
 =======
 #main, #logo, #menubar, #site_content, #footer
 >>>>>>> parent of 8c3f8c0... tons of minor changes
@@ -115,9 +119,14 @@ ol li
 #logo #logo_text 
 { position: absolute; 
 <<<<<<< HEAD
+<<<<<<< HEAD
   top: 1em;
   left: 0;
   right: 0;}
+=======
+  top: 10px;
+  left: 0;}
+>>>>>>> parent of 8c3f8c0... tons of minor changes
 =======
   top: 10px;
   left: 0;}
@@ -191,9 +200,12 @@ ul#menu li a:hover
 { width: 880px;
   overflow: hidden;
 <<<<<<< HEAD
+<<<<<<< HEAD
   margin: 2em 33em 0 auto;
   padding: 0 0 8em 0;} 
 =======
+=======
+>>>>>>> parent of 8c3f8c0... tons of minor changes
   margin: 20px auto 0 auto;
   padding: 0 0 10px 0;} 
 >>>>>>> parent of 8c3f8c0... tons of minor changes
