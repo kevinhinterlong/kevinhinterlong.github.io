@@ -108,7 +108,7 @@ ol li
 { width: 880px;
   position: relative;
   height: 10.9em;
-  left: 30%;
+  left: 15%;
   background: transparent;}
 
 #logo #logo_text 
@@ -183,7 +183,7 @@ ul#menu li a:hover
 #site_content
 { width: 70em;
   overflow: hidden;
-  margin: 2em 33em 0 auto;
+  margin: 2em auto 0 auto;
   padding: 0 0 8em 0;} 
 
 #sidebar_container
@@ -220,7 +220,7 @@ ul#menu li a:hover
 #content
 { text-align: left;
   width: 620px;
-  padding: 0 0 0 5px;
+  padding: 0 0 0 1em;
   float: left;}
   
 #content ul
