@@ -1,84 +1,85 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <!--This is by no means an example of good html-->
-	<!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<title>Kevin Hinterlong</title>
-    <!--Mobile Stuff-->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-	<meta name="theme-color" content="#263238">
-</head>
+	<head>
+		<!--This is by no means an example of good html-->
+		<!--Import materialize.css-->
+		<link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<title>Kevin Hinterlong</title>
+		<!--Mobile Stuff-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+		<meta name="theme-color" content="#263238">
+	</head>
 
-<body style="background-image:url(images/white.png)">
-    <!--Import jQuery before materialize.js-->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="js/materialize.js"></script>
-	<!-- START -->
-	
-	<!-- Dropdown Structure -->
-<ul id="projects-list" class="dropdown-content">
- <li><a href="projects.html">All Projects</a></li>
-  <li class="divider"></li>
-  <li><a href="projects/computerscience/index.html">Computer Science</a></li>
-  <li><a href="projects/math/index.html">Math</a></li>
-</ul>
-
-<div class="navbar-fixed">
-<nav>
-	<div class="nav-wrapper blue darken-3">
-    <a href="#1" class="brand-logo">Kev</a>
-	<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-    <ul class="right hide-on-med-and-down">
-		  <li><a href="index.html">Home</a></li>
-		  <li><a href="about.html">About</a></li>
-		  <li><a href="blank.html">New</a></li>
-			<!-- Dropdown Trigger -->
-			<li><a class="dropdown-button" href="#!" data-activates="projects-list">Projects<i class="material-icons right">arrow_drop_down</i></a></li>
-		</ul>
-		<ul class="side-nav" id="mobile-demo">
-			<li><a href="index.html">Home</a></li>
-			<li><a href="about.html">About</a></li>
-			<li><a href="blank.html">New</a></li>
-		</ul>
-	</div>
-	</nav>
-</div>
-
-  
-	<main>
-	<div class="parallax-container">
-    <div class="parallax"><img src="keyboard.jpg"></div>
-	<h1 class="white-text left-align" style="font-size:160px;line-height:140px;position:relative;bottom:-60%"><b>kevin hinterlong</b></h1>
-  </div>
-  
-		<h1>Welcome to my website</h1>
-        <p>This is the basis website for the currently starting up <a href = "http://www.linuxfromscratch.org/lfs/">Linux from Scratch</a> (LFS) project which I'm going to start at IMSA. My goal, likely to be changed/influenced later, is to create TitanOS. TitanOS will be an operating system to be continued and improved through future generations of IMSA students.</p>
-        <p>I think one of the biggest things to focus on in terms of actually starting the club is to find an appropriate leader who would be willing and knowledgeable enough to support this project.</p>
-        <p>How do people put so much stuff on websites</p>
-        <p>This is going to be a long road to completion</p>
+	<body style="background-image:url(images/white.png)">
+		<!--Import jQuery before materialize.js-->
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script type="text/javascript" src="js/materialize.js"></script>
+		<!-- START -->
 		
-	</main>
-	 <footer class="page-footer blue darken-3">
-        <div class="container">
-			<h6 class="center-align" style="color:white;font-size:20px">Kevin Hinterlong - 2015</h6>
-			<h6 class="center-align" style="color:white;font-size:14px">Created Using <a href="http://materializecss.com/" style="color:#CCCCCC">Materialize</a></h6>
-        </div>
-	</footer>
-	<!-- JAVASCRIPT -->
-	<script>
-	$(".button-collapse").sideNav();
-	$(document).ready(function(){
-      $('.parallax').parallax();
-    });
-	$(document).ready(function(){
-		$('.dropdown-button').dropdown();
-	});
-	$( document ).ready(function(){
+		<!-- Dropdown Structure -->
+		<ul id="projects-list" class="dropdown-content">
+		<li><a href="projects.html">All Projects</a></li>
+		<li class="divider"></li>
+		<li><a href="projects/computerscience/index.html">Computer Science</a></li>
+		<li><a href="projects/math/index.html">Math</a></li>
+		</ul>
+
+		<div class="navbar-fixed">
+			<nav>
+				<div class="nav-wrapper blue darken-3">
+					<a href="#1" class="brand-logo">Kev</a>
+					<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+					<ul class="right hide-on-med-and-down">
+						  <li><a href="index.html">Home</a></li>
+						  <li><a href="about.html">About</a></li>
+						  <li><a href="blank.html">New</a></li>
+							<!-- Dropdown Trigger -->
+							<li><a class="dropdown-button" href="#!" data-activates="projects-list">Projects<i class="material-icons right">arrow_drop_down</i></a></li>
+					</ul>
+					<ul class="side-nav" id="mobile-demo">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="blank.html">New</a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+
+	  
+		<main>
+			<div class="parallax-container">
+			   <div class="parallax"><img src="keyboard.jpg"></div>
+				<h1 class="blue-text text-darken-4 left-align" style="font-size:160px;line-height:140px;position:relative;bottom:-60%"><b>kevin hinterlong</b></h1>
+			</div>
+	  
+			<h1>Welcome to my website</h1>
+			
+			<h3>Possibly not going to keep</h3>
+			   <p>This is the basis website for the currently starting up <a href = "http://www.linuxfromscratch.org/lfs/">Linux from Scratch</a> (LFS) project which I'm going to start at IMSA. My goal, likely to be changed/influenced later, is to create TitanOS. TitanOS will be an operating system to be continued and improved through future generations of IMSA students.</p>
+			   <p>I think one of the biggest things to focus on in terms of actually starting the club is to find an appropriate leader who would be willing and knowledgeable enough to support this project.</p>
+			   <p>How do people put so much stuff on websites</p>
+			   <p>This is going to be a long road to completion</p>
+			
+		</main>
+		 <footer class="page-footer blue darken-3">
+		   <div class="container">
+				<h6 class="center-align" style="color:white;font-size:20px">Kevin Hinterlong - 2015</h6>
+				<h6 class="center-align" style="color:white;font-size:14px">Created Using <a href="http://materializecss.com/" style="color:#CCCCCC">Materialize</a></h6>
+		   </div>
+		</footer>
+		<!-- JAVASCRIPT -->
+		<script>
 		$(".button-collapse").sideNav();
-	})
-	</script>
-</body>
-	
+		$(document).ready(function(){
+		  $('.parallax').parallax();
+		});
+		$(document).ready(function(){
+			$('.dropdown-button').dropdown();
+		});
+		$( document ).ready(function(){
+			$(".button-collapse").sideNav();
+		})
+		</script>
+	</body>
 </html>
