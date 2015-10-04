@@ -6242,6 +6242,7 @@ a.waves-effect .waves-ripple {
   height: 50px;
   z-index: 1000;
   -webkit-font-smoothing: antialiased; }
+ 
 
 /* Remove Focus Boxes */
 select:focus {
@@ -8206,3 +8207,16 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 @media (min-height: 40.125em) {
   .picker--time .picker__box {
     margin-bottom: 5em; } }
+
+/* ==========================================================================
+   User added
+   ========================================================================== */
+	
+	.page-content {
+		padding:0% 0% 0% 3%;
+	}
+	
+	.preview {
+		position: relative;
+		height: 400px;
+	}
