@@ -1,123 +1,124 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<script type="text/javascript">
-		    var host = "kevin.hinterlong.com";
-		    if ((host == window.location.host) && (window.location.protocol != "https:"))
-		        window.location.protocol = "https";
-		</script>
-		<!--This is by no means an example of good html-->
-		<!--Import materialize.css-->
-		<link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
-		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-		<title>Kevin Hinterlong</title>
-		<!--Mobile Stuff-->
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-		<meta name="theme-color" content="#263238">
-	</head>
+<head>
+	<script type="text/javascript">
+	var host = "kevin.hinterlong.com";
+	if ((host == window.location.host) && (window.location.protocol != "https:")) {
+		window.location.protocol = "https";
+	}
+	</script>
+	<!--This is by no means an example of good html-->
+	<!--Import materialize.css-->
+	<link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<title>Kevin Hinterlong</title>
+	<!--Mobile Stuff-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+	<meta name="theme-color" content="#263238">
+</head>
 
-	<body style="background-image:url(images/white.png)">
-		<!--Import jQuery before materialize.js-->
-		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-		<script type="text/javascript" src="js/materialize.js"></script>
-		<!-- START -->
-		
-		<!-- Dropdown Structure -->
-		<ul id="projects-list" class="dropdown-content">
-			<li><a href="projects.html">All Projects</a></li>
-			<li class="divider"></li>
-			<li><a href="cpp.html">C++</a></li>
-			<li><a href="math.html">Math</a></li>
-			<li><a href="linux.html">Linux</a></li>
-			<li><a href="#!">Android</a></li>
-		</ul>
+<body style="background-image:url(images/white.png)">
+	<!--Import jQuery before materialize.js-->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="js/materialize.js"></script>
+	<!-- START -->
 
-		<div class="navbar-fixed">
-			<nav>
-				<div class="nav-wrapper blue darken-3">
-					<a href="index.html" class="brand-logo">Kev</a>
-					<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-					<ul class="right hide-on-med-and-down">
-						  <li><a href="index.html">Home</a></li>
-						  <li><a href="about.html">About</a></li>
-						  <li><a href="blank.html">New</a></li>
-							<!-- Dropdown Trigger -->
-							<li><a class="dropdown-button" href="#!" data-activates="projects-list">Projects<i class="material-icons right">arrow_drop_down</i></a></li>
-					</ul>
-					<ul class="side-nav" id="mobile-demo">
-						<li><a href="index.html">Home</a></li>
-						<li><a href="about.html">About</a></li>
-						<li><a href="blank.html">New</a></li>
-						<li class="no-padding">
-						  <ul class="collapsible collapsible-accordion">
+	<!-- Dropdown Structure -->
+	<ul id="projects-list" class="dropdown-content">
+		<li><a href="projects.html">All Projects</a></li>
+		<li class="divider"></li>
+		<li><a href="cpp.html">C++</a></li>
+		<li><a href="math.html">Math</a></li>
+		<li><a href="linux.html">Linux</a></li>
+		<li><a href="#!">Android</a></li>
+	</ul>
+
+	<div class="navbar-fixed">
+		<nav>
+			<div class="nav-wrapper blue darken-3">
+				<a href="index.html" class="brand-logo">Kev</a>
+				<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+				<ul class="right hide-on-med-and-down">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="blank.html">New</a></li>
+					<!-- Dropdown Trigger -->
+					<li><a class="dropdown-button" href="#!" data-activates="projects-list">Projects<i class="material-icons right">arrow_drop_down</i></a></li>
+				</ul>
+				<ul class="side-nav" id="mobile-demo">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="blank.html">New</a></li>
+					<li class="no-padding">
+						<ul class="collapsible collapsible-accordion">
 							<li>
-							  <a class="collapsible-header">Dropdown<i class="material-icons right">arrow_drop_down</i></a>
-							  <div class="collapsible-body">
-								<ul>
-								  <li><a href="projects.html">All Projects</a></li>
-									<li class="divider"></li>
-									<li><a href="cpp.html">C++</a></li>
-									<li><a href="math.html">Math</a></li>
-									<li><a href="linux.html">Linux</a></li>
-									<li><a href="#!">Android</a></li>
-								</ul>
-							  </div>
+								<a class="collapsible-header">Dropdown<i class="material-icons right">arrow_drop_down</i></a>
+								<div class="collapsible-body">
+									<ul>
+										<li><a href="projects.html">All Projects</a></li>
+										<li class="divider"></li>
+										<li><a href="cpp.html">C++</a></li>
+										<li><a href="math.html">Math</a></li>
+										<li><a href="linux.html">Linux</a></li>
+										<li><a href="#!">Android</a></li>
+									</ul>
+								</div>
 							</li>
-						  </ul>
-						</li>
-					</ul>
-				</div>
-			</nav>
-		</div>
-	  
-		<main>
-		    <div class="page-content">
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+
+	<main>
+		<div class="page-content">
 			<h1>Android Development</h1>
 			<p>I started App Development in my first semester of Senior year and at first I thought it would be really difficult. As the semester went on, I realized that developing apps wasn't very difficult, at least after you get used to the structure of Android Development. I started with very simple apps and worked my way up to more complex apps. Eventually I started exploring new things like game development which brought me to OpenGL. Below is one of my most developed applications which you can check out at the <a href="https://play.google.com/store/apps/details?id=com.hinterlong.kevin.paddleball">Google Play Store</a></p>
-		    </div>
-		    	
-			<div class="row" style="background-image:url(images/bg.png);padding:3% 3% 3% 3%;width:80%;">
-				<div class="col s12 m4">
-					<ul class="collection">
-					
-						<li class="collection-item avatar">
-							<img src="https://lh3.googleusercontent.com/sgCFEiwKnAwq9jb3XjthQtRqJ24DhxoEkwBhlR807mEBgCCHAyi_tSTt6w7ePn0r1w=h80-rw" alt="Paddle Ball" class="circle">
-								<span class="title">Paddle Ball</span>
-								<p>A simplified version of pong<br><a href="https://play.google.com/store/apps/details?id=com.hinterlong.kevin.paddleball">View</a></p>
-						</li>
-						
-					</ul>
-				</div>
-					
+		</div>
+
+		<div class="row" style="background-image:url(images/bg.png);padding:3% 3% 3% 3%;width:80%;">
+			<div class="col s12 m4">
+				<ul class="collection">
+
+					<li class="collection-item avatar">
+						<img src="https://lh3.googleusercontent.com/sgCFEiwKnAwq9jb3XjthQtRqJ24DhxoEkwBhlR807mEBgCCHAyi_tSTt6w7ePn0r1w=h80-rw" alt="Paddle Ball" class="circle">
+						<span class="title">Paddle Ball</span>
+						<p>A simplified version of pong<br><a href="https://play.google.com/store/apps/details?id=com.hinterlong.kevin.paddleball">View</a></p>
+					</li>
+
+				</ul>
 			</div>
-		
-		
-			
-			<div class="page-content">
-				<!-- PLACE ALL OF YOUR CONTENT HERE -->
-				
-				<!-- PLACE ALL OF YOUR CONTENT HERE -->
-			</div>
-			
-		</main>
-		 <footer class="page-footer blue darken-3">
-		   <div class="container">
-				<h6 class="center-align" style="color:white;font-size:20px">Kevin Hinterlong - 2015</h6>
-				<!-- <h6 class="center&#45;align" style="color:white;font&#45;size:14px">Created Using <a href="http://materializecss.com/" style="color:#CCCCCC">Materialize</a></h6> -->
-		   </div>
-		</footer>
-		<!-- JAVASCRIPT -->
-		<script>
+
+		</div>
+
+
+
+		<div class="page-content">
+			<!-- PLACE ALL OF YOUR CONTENT HERE -->
+
+			<!-- PLACE ALL OF YOUR CONTENT HERE -->
+		</div>
+
+	</main>
+	<footer class="page-footer blue darken-3">
+		<div class="container">
+			<h6 class="center-align" style="color:white;font-size:20px">Kevin Hinterlong - 2015</h6>
+			<!-- <h6 class="center&#45;align" style="color:white;font&#45;size:14px">Created Using <a href="http://materializecss.com/" style="color:#CCCCCC">Materialize</a></h6> -->
+		</div>
+	</footer>
+	<!-- JAVASCRIPT -->
+	<script>
+	$(".button-collapse").sideNav();
+	$(document).ready(function(){
+		$('.parallax').parallax();
+	});
+	$(document).ready(function(){
+		$('.dropdown-button').dropdown();
+	});
+	$( document ).ready(function(){
 		$(".button-collapse").sideNav();
-		$(document).ready(function(){
-		  $('.parallax').parallax();
-		});
-		$(document).ready(function(){
-			$('.dropdown-button').dropdown();
-		});
-		$( document ).ready(function(){
-			$(".button-collapse").sideNav();
-		})
-		</script>
-	</body>
+	})
+	</script>
+</body>
 </html>

@@ -1,147 +1,148 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<script type="text/javascript">
-		    var host = "kevin.hinterlong.com";
-		    if ((host == window.location.host) && (window.location.protocol != "https:"))
-		        window.location.protocol = "https";
-		</script>
-		<!--This is by no means an example of good html-->
-		<!--Import materialize.css-->
-		<link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
-		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-		<title>Kevin Hinterlong</title>
-		<!--Mobile Stuff-->
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-		<meta name="theme-color" content="#263238">
-	</head>
+<head>
+	<script type="text/javascript">
+	var host = "kevin.hinterlong.com";
+	if ((host == window.location.host) && (window.location.protocol != "https:")) {
+		window.location.protocol = "https";
+	}
+	</script>
+	<!--This is by no means an example of good html-->
+	<!--Import materialize.css-->
+	<link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<title>Kevin Hinterlong</title>
+	<!--Mobile Stuff-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+	<meta name="theme-color" content="#263238">
+</head>
 
-	<body style="background-image:url(images/white.png)">
-		<!--Import jQuery before materialize.js-->
-		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-		<script type="text/javascript" src="js/materialize.js"></script>
-		<!-- START -->
-		
-		<!-- Dropdown Structure -->
-		<ul id="projects-list" class="dropdown-content">
-			<li><a href="projects.html">All Projects</a></li>
-			<li class="divider"></li>
-			<li><a href="cpp.html">C++</a></li>
-			<li><a href="math.html">Math</a></li>
-			<li><a href="linux.html">Linux</a></li>
-			<li><a href="android.html">Android</a></li>
-		</ul>
+<body style="background-image:url(images/white.png)">
+	<!--Import jQuery before materialize.js-->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="js/materialize.js"></script>
+	<!-- START -->
 
-		<div class="navbar-fixed">
-			<nav>
-				<div class="nav-wrapper blue darken-3">
-					<a href="index.html" class="brand-logo">Kev</a>
-					<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-					<ul class="right hide-on-med-and-down">
-						  <li><a href="index.html">Home</a></li>
-						  <li><a href="about.html">About</a></li>
-						  <li><a href="blank.html">New</a></li>
-							<!-- Dropdown Trigger -->
-							<li><a class="dropdown-button" href="#!" data-activates="projects-list">Projects<i class="material-icons right">arrow_drop_down</i></a></li>
-					</ul>
-					<ul class="side-nav" id="mobile-demo">
-						<li><a href="index.html">Home</a></li>
-						<li><a href="about.html">About</a></li>
-						<li><a href="blank.html">New</a></li>
-						<li class="no-padding">
-						  <ul class="collapsible collapsible-accordion">
+	<!-- Dropdown Structure -->
+	<ul id="projects-list" class="dropdown-content">
+		<li><a href="projects.html">All Projects</a></li>
+		<li class="divider"></li>
+		<li><a href="cpp.html">C++</a></li>
+		<li><a href="math.html">Math</a></li>
+		<li><a href="linux.html">Linux</a></li>
+		<li><a href="android.html">Android</a></li>
+	</ul>
+
+	<div class="navbar-fixed">
+		<nav>
+			<div class="nav-wrapper blue darken-3">
+				<a href="index.html" class="brand-logo">Kev</a>
+				<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+				<ul class="right hide-on-med-and-down">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="blank.html">New</a></li>
+					<!-- Dropdown Trigger -->
+					<li><a class="dropdown-button" href="#!" data-activates="projects-list">Projects<i class="material-icons right">arrow_drop_down</i></a></li>
+				</ul>
+				<ul class="side-nav" id="mobile-demo">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="blank.html">New</a></li>
+					<li class="no-padding">
+						<ul class="collapsible collapsible-accordion">
 							<li>
-							  <a class="collapsible-header">Dropdown<i class="material-icons right">arrow_drop_down</i></a>
-							  <div class="collapsible-body">
-								<ul>
-								  <li><a href="projects.html">All Projects</a></li>
-									<li class="divider"></li>
-									<li><a href="cpp.html">C++</a></li>
-									<li><a href="math.html">Math</a></li>
-									<li><a href="linux.html">Linux</a></li>
-									<li><a href="android.html">Android</a></li>
-								</ul>
-							  </div>
+								<a class="collapsible-header">Dropdown<i class="material-icons right">arrow_drop_down</i></a>
+								<div class="collapsible-body">
+									<ul>
+										<li><a href="projects.html">All Projects</a></li>
+										<li class="divider"></li>
+										<li><a href="cpp.html">C++</a></li>
+										<li><a href="math.html">Math</a></li>
+										<li><a href="linux.html">Linux</a></li>
+										<li><a href="android.html">Android</a></li>
+									</ul>
+								</div>
 							</li>
-						  </ul>
-						</li>
-					</ul>
-				</div>
-			</nav>
-		</div>
-	  
-	  <div class="parallax-container" style="height:400px;">
-		   <div class="parallax"><img src="images/mandelbrot.png" alt="mandelbrot set"></div>
-			<h1 class="blue-text text-darken-4 left-align" style="font-size:160px;line-height:140px;position:relative;bottom:-60%"><b>Math</b></h1>
-		</div>
-	  
-		<main>
-			
-			<div class="row" style="background-image:url(images/bg.png);padding:3% 3% 3% 3%">
-				<div class="col s12 m6">
-					<ul class="collection">
-					
-						<li class="collection-item avatar">
-							<img src="images/harmonic_oscillator.png" alt="Dijkstra's" class="circle">
-								<span class="title">Harmonic Oscillators</span>
-								<p>Modeling the motions of a spring<br><a href="old%20website/Uploaded%20Files/Harmonic%20Oscillator.pdf">View</a></p>
-						</li>
-						<li class="collection-item avatar">
-							<img src="images/triangle.png" alt="Triangle" class="circle">
-								<span class="title">Playfair's and Proclus' Postulates</span>
-								<p>Proving the equivalence<br><A HREF="files/Alternate-Parrallel-Postulate-Proof.pdf">View</A></p>
-						</li>
-					</ul>
-				</div>
-			
-				<div class="col s12 m6">
-					<ul class="collection">
-					
-						<li class="collection-item avatar">
-							<img src="images/calculator.png" alt="Calculator" class="circle">
-								<span class="title">Hyperbolic Substitution</span>
-								<p>Trig substitutions and beyond<br><a href="old%20website/Uploaded%20Files/Hyperbolic%20Substitution.pdf">View</a></p>
-						</li>
-						<li class="collection-item avatar">
-							<img src="images/integral.png" alt="" class="circle">
-								<span class="title">Anti Chain Rule</span>
-								<p>Reversing the Chain Rule<br><a href="old%20website/Uploaded%20Files/Anti%20Chain%20Rule.pdf">View</a></p>
-						</li>
-						
-					</ul>
-				</div>
-
-				
-			</div>	
-		
-			
-			<div class="page-content">
-				<!-- PLACE ALL OF YOUR CONTENT HERE -->
-				
-				<h1>Projects</h1>
-				<p>Thanks to <a href="http://www.noahbprince.com">Dr. Noah Prince</a> I learned how to properly write math papers - that is, using LaTeX. These projects helped me to explore ideas about calculus, differential equations, and geometry with my classmates and showed me how to investigate these problems carefully.</p>
-				<!-- PLACE ALL OF YOUR CONTENT HERE -->
+						</ul>
+					</li>
+				</ul>
 			</div>
-			
-		</main>
-		 <footer class="page-footer blue darken-3">
-		   <div class="container">
-				<h6 class="center-align" style="color:white;font-size:20px">Kevin Hinterlong - 2015</h6>
-				<!-- <h6 class="center&#45;align" style="color:white;font&#45;size:14px">Created Using <a href="http://materializecss.com/" style="color:#CCCCCC">Materialize</a></h6> -->
-		   </div>
-		</footer>
-		<!-- JAVASCRIPT -->
-		<script>
+		</nav>
+	</div>
+
+	<div class="parallax-container" style="height:400px;">
+		<div class="parallax"><img src="images/mandelbrot.png" alt="mandelbrot set"></div>
+		<h1 class="blue-text text-darken-4 left-align" style="font-size:160px;line-height:140px;position:relative;bottom:-60%"><b>Math</b></h1>
+	</div>
+
+	<main>
+
+		<div class="row" style="background-image:url(images/bg.png);padding:3% 3% 3% 3%">
+			<div class="col s12 m6">
+				<ul class="collection">
+
+					<li class="collection-item avatar">
+						<img src="images/harmonic_oscillator.png" alt="Dijkstra's" class="circle">
+						<span class="title">Harmonic Oscillators</span>
+						<p>Modeling the motions of a spring<br><a href="old%20website/Uploaded%20Files/Harmonic%20Oscillator.pdf">View</a></p>
+					</li>
+					<li class="collection-item avatar">
+						<img src="images/triangle.png" alt="Triangle" class="circle">
+						<span class="title">Playfair's and Proclus' Postulates</span>
+						<p>Proving the equivalence<br><A HREF="files/Alternate-Parrallel-Postulate-Proof.pdf">View</A></p>
+					</li>
+				</ul>
+			</div>
+
+			<div class="col s12 m6">
+				<ul class="collection">
+
+					<li class="collection-item avatar">
+						<img src="images/calculator.png" alt="Calculator" class="circle">
+						<span class="title">Hyperbolic Substitution</span>
+						<p>Trig substitutions and beyond<br><a href="old%20website/Uploaded%20Files/Hyperbolic%20Substitution.pdf">View</a></p>
+					</li>
+					<li class="collection-item avatar">
+						<img src="images/integral.png" alt="" class="circle">
+						<span class="title">Anti Chain Rule</span>
+						<p>Reversing the Chain Rule<br><a href="old%20website/Uploaded%20Files/Anti%20Chain%20Rule.pdf">View</a></p>
+					</li>
+
+				</ul>
+			</div>
+
+
+		</div>
+
+
+		<div class="page-content">
+			<!-- PLACE ALL OF YOUR CONTENT HERE -->
+
+			<h1>Projects</h1>
+			<p>Thanks to <a href="http://www.noahbprince.com">Dr. Noah Prince</a> I learned how to properly write math papers - that is, using LaTeX. These projects helped me to explore ideas about calculus, differential equations, and geometry with my classmates and showed me how to investigate these problems carefully.</p>
+			<!-- PLACE ALL OF YOUR CONTENT HERE -->
+		</div>
+
+	</main>
+	<footer class="page-footer blue darken-3">
+		<div class="container">
+			<h6 class="center-align" style="color:white;font-size:20px">Kevin Hinterlong - 2015</h6>
+			<!-- <h6 class="center&#45;align" style="color:white;font&#45;size:14px">Created Using <a href="http://materializecss.com/" style="color:#CCCCCC">Materialize</a></h6> -->
+		</div>
+	</footer>
+	<!-- JAVASCRIPT -->
+	<script>
+	$(".button-collapse").sideNav();
+	$(document).ready(function(){
+		$('.parallax').parallax();
+	});
+	$(document).ready(function(){
+		$('.dropdown-button').dropdown();
+	});
+	$( document ).ready(function(){
 		$(".button-collapse").sideNav();
-		$(document).ready(function(){
-		  $('.parallax').parallax();
-		});
-		$(document).ready(function(){
-			$('.dropdown-button').dropdown();
-		});
-		$( document ).ready(function(){
-			$(".button-collapse").sideNav();
-		})
-		</script>
-	</body>
+	})
+	</script>
+</body>
 </html>

@@ -1,111 +1,112 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<script type="text/javascript">
-		    var host = "kevin.hinterlong.com";
-		    if ((host == window.location.host) && (window.location.protocol != "https:"))
-		        window.location.protocol = "https";
-		</script>
-		<!--This is by no means an example of good html-->
-		<!--Import materialize.css-->
-		<link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
-		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-		<title>Kevin Hinterlong</title>
-		<!--Mobile Stuff-->
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-		<meta name="theme-color" content="#263238">
-	</head>
+<head>
+	<script type="text/javascript">
+	var host = "kevin.hinterlong.com";
+	if ((host == window.location.host) && (window.location.protocol != "https:")) {
+		window.location.protocol = "https";
+	}
+	</script>
+	<!--This is by no means an example of good html-->
+	<!--Import materialize.css-->
+	<link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<title>Kevin Hinterlong</title>
+	<!--Mobile Stuff-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+	<meta name="theme-color" content="#263238">
+</head>
 
-	<body style="background-image:url(images/white.png)">
-		<!--Import jQuery before materialize.js-->
-		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-		<script type="text/javascript" src="js/materialize.js"></script>
-		<!-- START -->
-		
-		<!-- Dropdown Structure -->
-		<ul id="projects-list" class="dropdown-content">
-			<li><a href="projects.html">All Projects</a></li>
-			<li class="divider"></li>
-			<li><a href="cpp.html">C++</a></li>
-			<li><a href="math.html">Math</a></li>
-			<li><a href="linux.html">Linux</a></li>
-			<li><a href="android.html">Android</a></li>
-		</ul>
+<body style="background-image:url(images/white.png)">
+	<!--Import jQuery before materialize.js-->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="js/materialize.js"></script>
+	<!-- START -->
 
-		<div class="navbar-fixed">
-			<nav>
-				<div class="nav-wrapper blue darken-3">
-					<a href="index.html" class="brand-logo">Kev</a>
-					<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-					<ul class="right hide-on-med-and-down">
-						  <li><a href="index.html">Home</a></li>
-						  <li><a href="about.html">About</a></li>
-						  <li class="active"><a href="#!">New</a></li>
-							<!-- Dropdown Trigger -->
-							<li><a class="dropdown-button" href="#!" data-activates="projects-list">Projects<i class="material-icons right">arrow_drop_down</i></a></li>
-					</ul>
-					<ul class="side-nav" id="mobile-demo">
-						<li><a href="index.html">Home</a></li>
-						<li><a href="about.html">About</a></li>
-						<li class="active"><a href="blank.html">New</a></li>
-						<li class="no-padding">
-						  <ul class="collapsible collapsible-accordion">
+	<!-- Dropdown Structure -->
+	<ul id="projects-list" class="dropdown-content">
+		<li><a href="projects.html">All Projects</a></li>
+		<li class="divider"></li>
+		<li><a href="cpp.html">C++</a></li>
+		<li><a href="math.html">Math</a></li>
+		<li><a href="linux.html">Linux</a></li>
+		<li><a href="android.html">Android</a></li>
+	</ul>
+
+	<div class="navbar-fixed">
+		<nav>
+			<div class="nav-wrapper blue darken-3">
+				<a href="index.html" class="brand-logo">Kev</a>
+				<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+				<ul class="right hide-on-med-and-down">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li class="active"><a href="#!">New</a></li>
+					<!-- Dropdown Trigger -->
+					<li><a class="dropdown-button" href="#!" data-activates="projects-list">Projects<i class="material-icons right">arrow_drop_down</i></a></li>
+				</ul>
+				<ul class="side-nav" id="mobile-demo">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li class="active"><a href="blank.html">New</a></li>
+					<li class="no-padding">
+						<ul class="collapsible collapsible-accordion">
 							<li>
-							  <a class="collapsible-header">Dropdown<i class="material-icons right">arrow_drop_down</i></a>
-							  <div class="collapsible-body">
-								<ul>
-								  <li><a href="projects.html">All Projects</a></li>
-									<li class="divider"></li>
-									<li><a href="cpp.html">C++</a></li>
-									<li><a href="math.html">Math</a></li>
-									<li><a href="linux.html">Linux</a></li>
-									<li><a href="android.html">Android</a></li>
-								</ul>
-							  </div>
+								<a class="collapsible-header">Dropdown<i class="material-icons right">arrow_drop_down</i></a>
+								<div class="collapsible-body">
+									<ul>
+										<li><a href="projects.html">All Projects</a></li>
+										<li class="divider"></li>
+										<li><a href="cpp.html">C++</a></li>
+										<li><a href="math.html">Math</a></li>
+										<li><a href="linux.html">Linux</a></li>
+										<li><a href="android.html">Android</a></li>
+									</ul>
+								</div>
 							</li>
-						  </ul>
-						</li>
-					</ul>
-				</div>
-			</nav>
-		</div>
-	  
-	  <div class="parallax-container" >
-		   <div class="parallax"><img src="images/keyboard.jpg"></div>
-			<h1 class="blue-text text-darken-4 left-align" style="font-size:1000%;line-height:90%;bottom:0;position:absolute"><b>Title here</b></h1>
-		</div>
-	  
-		<main  style="padding:0% 3% 0% 3%">
-			
-			<div class="page-content">
-				<!-- PLACE ALL OF YOUR CONTENT HERE -->
-				
-				<h1>This is content</h1>
-					<p>Place more content here</p>
-				<!-- PLACE ALL OF YOUR CONTENT HERE -->
+						</ul>
+					</li>
+				</ul>
 			</div>
-			
-		</main>
-		
-		 <footer class="page-footer blue darken-3">
-		   <div class="container">
-				<h6 class="center-align" style="color:white;font-size:20px">Kevin Hinterlong - 2015</h6>
-				<!-- <h6 class="center&#45;align" style="color:white;font&#45;size:14px">Created Using <a href="http://materializecss.com/" style="color:#CCCCCC">Materialize</a></h6> -->
-		   </div>
-		</footer>
-		<!-- JAVASCRIPT -->
-		<script>
+		</nav>
+	</div>
+
+	<div class="parallax-container" >
+		<div class="parallax"><img src="images/keyboard.jpg"></div>
+		<h1 class="blue-text text-darken-4 left-align" style="font-size:1000%;line-height:90%;bottom:0;position:absolute"><b>Title here</b></h1>
+	</div>
+
+	<main  style="padding:0% 3% 0% 3%">
+
+		<div class="page-content">
+			<!-- PLACE ALL OF YOUR CONTENT HERE -->
+
+			<h1>This is content</h1>
+			<p>Place more content here</p>
+			<!-- PLACE ALL OF YOUR CONTENT HERE -->
+		</div>
+
+	</main>
+
+	<footer class="page-footer blue darken-3">
+		<div class="container">
+			<h6 class="center-align" style="color:white;font-size:20px">Kevin Hinterlong - 2015</h6>
+			<!-- <h6 class="center&#45;align" style="color:white;font&#45;size:14px">Created Using <a href="http://materializecss.com/" style="color:#CCCCCC">Materialize</a></h6> -->
+		</div>
+	</footer>
+	<!-- JAVASCRIPT -->
+	<script>
+	$(".button-collapse").sideNav();
+	$(document).ready(function(){
+		$('.parallax').parallax();
+	});
+	$(document).ready(function(){
+		$('.dropdown-button').dropdown();
+	});
+	$( document ).ready(function(){
 		$(".button-collapse").sideNav();
-		$(document).ready(function(){
-		  $('.parallax').parallax();
-		});
-		$(document).ready(function(){
-			$('.dropdown-button').dropdown();
-		});
-		$( document ).ready(function(){
-			$(".button-collapse").sideNav();
-		});
-		
-		</script>
-	</body>
+	});
+
+	</script>
+</body>
 </html>

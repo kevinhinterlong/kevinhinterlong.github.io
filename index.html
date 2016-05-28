@@ -1,111 +1,112 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<script type="text/javascript">
-		    var host = "kevin.hinterlong.com";
-		    if ((host == window.location.host) && (window.location.protocol != "https:"))
-		        window.location.protocol = "https";
-		</script>
-		<!--This is by no means an example of good html-->
-		<!--Import materialize.css-->
-		<link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
-		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-		<title>Kevin Hinterlong</title>
-		<!--Mobile Stuff-->
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-		<meta name="theme-color" content="#263238">
-		<link rel="shortcut icon" type="image/x-icon" href="old website/KevIcon.ico" />
-	</head>
+<head>
+	<script type="text/javascript">
+	var host = "kevin.hinterlong.com";
+	if ((host == window.location.host) && (window.location.protocol != "https:")) {
+		window.location.protocol = "https";
+	}
+	</script>
+	<!--This is by no means an example of good html-->
+	<!--Import materialize.css-->
+	<link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<title>Kevin Hinterlong</title>
+	<!--Mobile Stuff-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+	<meta name="theme-color" content="#263238">
+	<link rel="shortcut icon" type="image/x-icon" href="old website/KevIcon.ico" />
+</head>
 
-	<body style="background-image:url(images/white.png)">
-		<!--Import jQuery before materialize.js-->
-		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-		<script type="text/javascript" src="js/materialize.js"></script>
-		<!-- START -->
+<body style="background-image:url(images/white.png)">
+	<!--Import jQuery before materialize.js-->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="js/materialize.js"></script>
+	<!-- START -->
 
-		<!-- Dropdown Structure -->
-		<ul id="projects-list" class="dropdown-content">
-			<li><a href="projects.html">All Projects</a></li>
-			<li class="divider"></li>
-			<li><a href="cpp.html">C++</a></li>
-			<li><a href="math.html">Math</a></li>
-			<li><a href="linux.html">Linux</a></li>
-			<li><a href="android.html">Android</a></li>
-		</ul>
+	<!-- Dropdown Structure -->
+	<ul id="projects-list" class="dropdown-content">
+		<li><a href="projects.html">All Projects</a></li>
+		<li class="divider"></li>
+		<li><a href="cpp.html">C++</a></li>
+		<li><a href="math.html">Math</a></li>
+		<li><a href="linux.html">Linux</a></li>
+		<li><a href="android.html">Android</a></li>
+	</ul>
 
-		<div class="navbar-fixed">
-			<nav>
-				<div class="nav-wrapper blue darken-3">
-					<a href="#1" class="brand-logo">Kev</a>
-					<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-					<ul class="right hide-on-med-and-down">
-						  <li class="active"><a href="#!">Home</a></li>
-						  <li><a href="about.html">About</a></li>
-						  <li><a href="blank.html">New</a></li>
-							<!-- Dropdown Trigger -->
-							<li><a class="dropdown-button" href="#!" data-activates="projects-list">Projects<i class="material-icons right">arrow_drop_down</i></a></li>
-					</ul>
-					<ul class="side-nav" id="mobile-demo">
-						<li class="active"><a href="index.html">Home</a></li>
-						<li><a href="about.html">About</a></li>
-						<li><a href="blank.html">New</a></li>
-						<li class="no-padding">
-						  <ul class="collapsible collapsible-accordion">
+	<div class="navbar-fixed">
+		<nav>
+			<div class="nav-wrapper blue darken-3">
+				<a href="#1" class="brand-logo">Kev</a>
+				<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+				<ul class="right hide-on-med-and-down">
+					<li class="active"><a href="#!">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="blank.html">New</a></li>
+					<!-- Dropdown Trigger -->
+					<li><a class="dropdown-button" href="#!" data-activates="projects-list">Projects<i class="material-icons right">arrow_drop_down</i></a></li>
+				</ul>
+				<ul class="side-nav" id="mobile-demo">
+					<li class="active"><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="blank.html">New</a></li>
+					<li class="no-padding">
+						<ul class="collapsible collapsible-accordion">
 							<li>
-							  <a class="collapsible-header">Dropdown<i class="material-icons right">arrow_drop_down</i></a>
-							  <div class="collapsible-body">
-								<ul>
-								  <li><a href="projects.html">All Projects</a></li>
-									<li class="divider"></li>
-									<li><a href="cpp.html">C++</a></li>
-									<li><a href="math.html">Math</a></li>
-									<li><a href="linux.html">Linux</a></li>
-									<li><a href="android.html">Android</a></li>
-								</ul>
-							  </div>
+								<a class="collapsible-header">Dropdown<i class="material-icons right">arrow_drop_down</i></a>
+								<div class="collapsible-body">
+									<ul>
+										<li><a href="projects.html">All Projects</a></li>
+										<li class="divider"></li>
+										<li><a href="cpp.html">C++</a></li>
+										<li><a href="math.html">Math</a></li>
+										<li><a href="linux.html">Linux</a></li>
+										<li><a href="android.html">Android</a></li>
+									</ul>
+								</div>
 							</li>
-						  </ul>
-						</li>
-					</ul>
-				</div>
-			</nav>
-		</div>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</div>
 
-		<div class="parallax-container" style="height:400px;" >
-		   <div class="parallax"><img src="images/keyboard.jpg" alt="keyboard"></div>
-			<h1 class="blue-text text-darken-4 left-align" style="font-size:1000%;line-height:90%;bottom:0;position:absolute"><b>kevin hinterlong</b></h1>
-		</div>
+	<div class="parallax-container" style="height:400px;" >
+		<div class="parallax"><img src="images/keyboard.jpg" alt="keyboard"></div>
+		<h1 class="blue-text text-darken-4 left-align" style="font-size:1000%;line-height:90%;bottom:0;position:absolute"><b>kevin hinterlong</b></h1>
+	</div>
 
-		<main style="padding:0% 3% 0% 3%">
+	<main style="padding:0% 3% 0% 3%">
 
-			<div class="page-content">
+		<div class="page-content">
 			<h1>Welcome</h1>
 			<h3>Information</h3>
-				<h5>I've most recently been working on Android development for my Computer Seminar class. You can check out my final project <a href="https://play.google.com/store/apps/details?id=com.hinterlong.kevin.paddleball">Paddle Ball</a> on the play store or on the Android project page. I enjoy learning all sorts of different subjects in math, science, and technology and hopefully this website will help me to showcase some of the things I've been working on.</h5>
+			<h5>I've most recently been working on Android development for my Computer Seminar class. You can check out my final project <a href="https://play.google.com/store/apps/details?id=com.hinterlong.kevin.paddleball">Paddle Ball</a> on the play store or on the Android project page. I enjoy learning all sorts of different subjects in math, science, and technology and hopefully this website will help me to showcase some of the things I've been working on.</h5>
 			<h3>Future goals</h3>
-				   <h5>I'd really like to become more familiar with C and C++ so that I can help work on some of my favorite projects: Arch Linux, the Linux Kernel, and all sorts of open source projects. If you couldn't tell from that, I'd also like to learn how operating systems work through sites such as <a href="http://wiki.osdev.org/Main_Page">OSDev</a>. </h5>
-			</div>
+			<h5>I'd really like to become more familiar with C and C++ so that I can help work on some of my favorite projects: Arch Linux, the Linux Kernel, and all sorts of open source projects. If you couldn't tell from that, I'd also like to learn how operating systems work through sites such as <a href="http://wiki.osdev.org/Main_Page">OSDev</a>. </h5>
+		</div>
 
-		</main>
-		 <footer class="page-footer blue darken-3">
-		   <div class="container">
-				<h6 class="center-align" style="color:white;font-size:20px">Kevin Hinterlong - 2015</h6>
+	</main>
+	<footer class="page-footer blue darken-3">
+		<div class="container">
+			<h6 class="center-align" style="color:white;font-size:20px">Kevin Hinterlong - 2015</h6>
 
-		        <!-- <div id="btc&#45;quote" class="center&#45;align" style="width:25%;float:right;z&#45;index:1;position:relative;bottom:0%;top:&#45;20%;"></div> -->
-		   </div>
-		</footer>
-		<!-- JAVASCRIPT -->
-		<script>
+			<!-- <div id="btc&#45;quote" class="center&#45;align" style="width:25%;float:right;z&#45;index:1;position:relative;bottom:0%;top:&#45;20%;"></div> -->
+		</div>
+	</footer>
+	<!-- JAVASCRIPT -->
+	<script>
+	$(".button-collapse").sideNav();
+	$(document).ready(function(){
+		$('.parallax').parallax();
+	});
+	$(document).ready(function(){
+		$('.dropdown-button').dropdown();
+	});
+	$( document ).ready(function(){
 		$(".button-collapse").sideNav();
-		$(document).ready(function(){
-		  $('.parallax').parallax();
-		});
-		$(document).ready(function(){
-			$('.dropdown-button').dropdown();
-		});
-		$( document ).ready(function(){
-			$(".button-collapse").sideNav();
-		})
-		</script>
-	</body>
+	})
+	</script>
+</body>
 </html>

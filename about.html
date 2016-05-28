@@ -1,152 +1,153 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<script type="text/javascript">
-		    var host = "kevin.hinterlong.com";
-		    if ((host == window.location.host) && (window.location.protocol != "https:"))
-		        window.location.protocol = "https";
-		</script>
-		<!--This is by no means an example of good html-->
-		<!--Import materialize.css-->
-		<link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
-		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-		<title>About Me</title>
-		<!--Mobile Stuff-->
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-		<meta name="theme-color" content="#263238">
-	</head>
+<head>
+	<script type="text/javascript">
+	var host = "kevin.hinterlong.com";
+	if ((host == window.location.host) && (window.location.protocol != "https:")) {
+		window.location.protocol = "https";
+	}
+	</script>
+	<!--This is by no means an example of good html-->
+	<!--Import materialize.css-->
+	<link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<title>About Me</title>
+	<!--Mobile Stuff-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+	<meta name="theme-color" content="#263238">
+</head>
 
-	<body style="background-image:url(images/white.png)">
-		<!--Import jQuery before materialize.js-->
-		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-		<script type="text/javascript" src="js/materialize.js"></script>
-		<!-- START -->
-		
-		<!-- Dropdown Structure -->
-		<ul id="projects-list" class="dropdown-content">
-			<li><a href="projects.html">All Projects</a></li>
-			<li class="divider"></li>
-			<li><a href="cpp.html">C++</a></li>
-			<li><a href="math.html">Math</a></li>
-			<li><a href="linux.html">Linux</a></li>
-			<li><a href="android.html">Android</a></li>
-		</ul>
+<body style="background-image:url(images/white.png)">
+	<!--Import jQuery before materialize.js-->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="js/materialize.js"></script>
+	<!-- START -->
 
-		<div class="navbar-fixed">
-			<nav>
-				<div class="nav-wrapper blue darken-3">
-					<a href="index.html" class="brand-logo">Kev</a>
-					<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-					<ul class="right hide-on-med-and-down">
-						  <li><a href="index.html">Home</a></li>
-						  <li class="active"><a href="#!">About</a></li>
-						  <li><a href="blank.html">New</a></li>
-							<!-- Dropdown Trigger -->
-							<li><a class="dropdown-button" href="#!" data-activates="projects-list">Projects<i class="material-icons right">arrow_drop_down</i></a></li>
-					</ul>
-					<ul class="side-nav" id="mobile-demo">
-						<li><a href="index.html">Home</a></li>
-						<li class="active"><a href="about.html">About</a></li>
-						<li><a href="blank.html">New</a></li>
-						<li class="no-padding">
-						  <ul class="collapsible collapsible-accordion">
+	<!-- Dropdown Structure -->
+	<ul id="projects-list" class="dropdown-content">
+		<li><a href="projects.html">All Projects</a></li>
+		<li class="divider"></li>
+		<li><a href="cpp.html">C++</a></li>
+		<li><a href="math.html">Math</a></li>
+		<li><a href="linux.html">Linux</a></li>
+		<li><a href="android.html">Android</a></li>
+	</ul>
+
+	<div class="navbar-fixed">
+		<nav>
+			<div class="nav-wrapper blue darken-3">
+				<a href="index.html" class="brand-logo">Kev</a>
+				<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+				<ul class="right hide-on-med-and-down">
+					<li><a href="index.html">Home</a></li>
+					<li class="active"><a href="#!">About</a></li>
+					<li><a href="blank.html">New</a></li>
+					<!-- Dropdown Trigger -->
+					<li><a class="dropdown-button" href="#!" data-activates="projects-list">Projects<i class="material-icons right">arrow_drop_down</i></a></li>
+				</ul>
+				<ul class="side-nav" id="mobile-demo">
+					<li><a href="index.html">Home</a></li>
+					<li class="active"><a href="about.html">About</a></li>
+					<li><a href="blank.html">New</a></li>
+					<li class="no-padding">
+						<ul class="collapsible collapsible-accordion">
 							<li>
-							  <a class="collapsible-header">Dropdown<i class="material-icons right">arrow_drop_down</i></a>
-							  <div class="collapsible-body">
-								<ul>
-								  <li><a href="projects.html">All Projects</a></li>
-									<li class="divider"></li>
-									<li><a href="cpp.html">C++</a></li>
-									<li><a href="math.html">Math</a></li>
-									<li><a href="linux.html">Linux</a></li>
-									<li><a href="android.html">Android</a></li>
-								</ul>
-							  </div>
+								<a class="collapsible-header">Dropdown<i class="material-icons right">arrow_drop_down</i></a>
+								<div class="collapsible-body">
+									<ul>
+										<li><a href="projects.html">All Projects</a></li>
+										<li class="divider"></li>
+										<li><a href="cpp.html">C++</a></li>
+										<li><a href="math.html">Math</a></li>
+										<li><a href="linux.html">Linux</a></li>
+										<li><a href="android.html">Android</a></li>
+									</ul>
+								</div>
 							</li>
-						  </ul>
-						</li>
-					</ul>
-				</div>
-			</nav>
-		</div>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</div>
 
 
 	<main  style="padding:0% 3% 0% 3%">
 		<div style="float:left">
 			<div style="width:25%;padding:2% 3% 0% 2%;float:left;margin:auto;">
-			<img src="images/Faces of IMSA-Kevin 2.jpg" height="80%" width="80%" />
-			<h4>Basic info</h4>
-			<p>I am a Senior at the Illinois Mathematics and Science Academy.</p>
-			<p>I love all sorts of computer science and am always willing to help other people.</p>
+				<img src="images/Faces of IMSA-Kevin 2.jpg" height="80%" width="80%" />
+				<h4>Basic info</h4>
+				<p>I am a Senior at the Illinois Mathematics and Science Academy.</p>
+				<p>I love all sorts of computer science and am always willing to help other people.</p>
 			</div>
-			
+
 			<div class="page-content">
 				<h1>About Me</h1>
-					<p>I started this website to practice HTML/CSS/JS, but it's also very useful for showing my skills and ambitions. I enjoy working in a wide variety of Computer Science topics - anywhere from low-level programming to front end development. I love to work on projects with my friends and explore new topics. Hopefully I will be able to update this website to show and explain some of the things I've made, but that's not always the easiest thing to do.</p>
-					<p>I realize that this page is probably cluttered and not very up to date, but it's still novel to host a website. Also here's a list of the things I like to study and plan to show on my website.</p>
-					
-						<div class="section scrollspy col">
-							<ul class="collection with-header">
-								<li class="collection-header"><h4>Some of my current interests</h4></li>
-								<li class="collection-item">C/C++ and low-level programming</li>
-								<li class="collection-item">Linux Kernel Development</li>
-								<li class="collection-item">Android App Development</li>
-								<li class="collection-item">Web Application Development</li>
-								<li class="collection-item">Networking and Server Administration</li>
-							</ul>
-						</div>
+				<p>I started this website to practice HTML/CSS/JS, but it's also very useful for showing my skills and ambitions. I enjoy working in a wide variety of Computer Science topics - anywhere from low-level programming to front end development. I love to work on projects with my friends and explore new topics. Hopefully I will be able to update this website to show and explain some of the things I've made, but that's not always the easiest thing to do.</p>
+				<p>I realize that this page is probably cluttered and not very up to date, but it's still novel to host a website. Also here's a list of the things I like to study and plan to show on my website.</p>
+
+				<div class="section scrollspy col">
+					<ul class="collection with-header">
+						<li class="collection-header"><h4>Some of my current interests</h4></li>
+						<li class="collection-item">C/C++ and low-level programming</li>
+						<li class="collection-item">Linux Kernel Development</li>
+						<li class="collection-item">Android App Development</li>
+						<li class="collection-item">Web Application Development</li>
+						<li class="collection-item">Networking and Server Administration</li>
+					</ul>
+				</div>
 			</div>
 		</div>
-		
-					<div class="section">
 
-					  <!--   Icon Section   -->
-					  <div class="row">
-							<div class="col s12 m4">
-								<div class="icon-block">
-								<h2 class="center light-blue-text"><i class="material-icons">flash_on</i></h2>
-								<h5 class="center">Independent/Small Group Coding Projects</h5>
+		<div class="section">
 
-								<p class="light">My friends and I enjoy coding and use it at every opportunity possible from class work to personal entertainment.</p>
-								</div>
-							</div>
+			<!--   Icon Section   -->
+			<div class="row">
+				<div class="col s12 m4">
+					<div class="icon-block">
+						<h2 class="center light-blue-text"><i class="material-icons">flash_on</i></h2>
+						<h5 class="center">Independent/Small Group Coding Projects</h5>
 
-							<div class="col s12 m4">
-								<div class="icon-block">
-								<h2 class="center light-blue-text"><i class="material-icons">code</i></h2>
-								<h5 class="center">Group Projects on GitHub</h5>
-
-								<p class="light">Most of my projects up to this point have been independent, but I've recently started working with other people to develop applications together.</p>
-								</div>
-							</div>
-
-							<div class="col s12 m4">
-								<div class="icon-block">
-								<h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
-								<h5 class="center">Math Projects</h5>
-
-								<p class="light">I also enjoy math, but to a much less extent than coding. I prefer learning and applying most continuous mathematics, but I still think discrete math is very interesting.</p>
-								</div>
-							</div>
-					  </div>
-
+						<p class="light">My friends and I enjoy coding and use it at every opportunity possible from class work to personal entertainment.</p>
 					</div>
-					
-			
-		
+				</div>
+
+				<div class="col s12 m4">
+					<div class="icon-block">
+						<h2 class="center light-blue-text"><i class="material-icons">code</i></h2>
+						<h5 class="center">Group Projects on GitHub</h5>
+
+						<p class="light">Most of my projects up to this point have been independent, but I've recently started working with other people to develop applications together.</p>
+					</div>
+				</div>
+
+				<div class="col s12 m4">
+					<div class="icon-block">
+						<h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
+						<h5 class="center">Math Projects</h5>
+
+						<p class="light">I also enjoy math, but to a much less extent than coding. I prefer learning and applying most continuous mathematics, but I still think discrete math is very interesting.</p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+
+
 	</main>
-	 <footer class="page-footer blue darken-3">
-        <div class="container">
+	<footer class="page-footer blue darken-3">
+		<div class="container">
 			<h6 class="center-align" style="color:white;font-size:20px">Kevin Hinterlong - 2015</h6>
 			<!-- <h6 class="center&#45;align" style="color:white;font&#45;size:14px">Created Using <a href="http://materializecss.com/" style="color:#CCCCCC">Materialize</a></h6> -->
-        </div>
+		</div>
 	</footer>
 	<!-- JAVASCRIPT -->
 	<script>
 	$(".button-collapse").sideNav();
 	$(document).ready(function(){
-      $('.parallax').parallax();
-    });
+		$('.parallax').parallax();
+	});
 	$(document).ready(function(){
 		$('.dropdown-button').dropdown();
 	});
@@ -155,5 +156,5 @@
 	})
 	</script>
 </body>
-	
+
 </html>
