@@ -10,6 +10,7 @@
 	<!--This is by no means an example of good html-->
 	<!--Import materialize.css-->
 	<link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+	<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<title>Kevin Hinterlong</title>
 	<!--Mobile Stuff-->
@@ -78,12 +79,12 @@
 
 		<div class="row" style="background-image:url(images/bg.png);padding:3% 3% 3% 3%;width:80%;">
 			<div class="col s12 m4">
-				<ul class="collection">
+				<ul class="collection collapsible" data-collapsible="accordion">
 
 					<li class="collection-item avatar">
 						<img src="https://lh3.googleusercontent.com/sgCFEiwKnAwq9jb3XjthQtRqJ24DhxoEkwBhlR807mEBgCCHAyi_tSTt6w7ePn0r1w=h80-rw" alt="Paddle Ball" class="circle">
-						<span class="title">Paddle Ball</span>
-						<p>A simplified version of pong<br><a href="https://play.google.com/store/apps/details?id=com.hinterlong.kevin.paddleball">View</a></p>
+						<div class="collapsible-header title black-text"><i class="material-icons">android</i>Paddle Ball</div>
+      			<div class="collapsible-body"><p><b>A simplified version of pong <a href="https://play.google.com/store/apps/details?id=com.hinterlong.kevin.paddleball">Check it out</a></b></p></div>
 					</li>
 
 				</ul>
@@ -102,7 +103,7 @@
 	</main>
 	<footer class="page-footer blue darken-3">
 		<div class="container">
-			<h6 class="center-align" style="color:white;font-size:20px">Kevin Hinterlong - 2015</h6>
+			<h6 class="center-align" style="color:white;font-size:20px">Kevin Hinterlong - 2016</h6>
 			<!-- <h6 class="center&#45;align" style="color:white;font&#45;size:14px">Created Using <a href="http://materializecss.com/" style="color:#CCCCCC">Materialize</a></h6> -->
 		</div>
 	</footer>
