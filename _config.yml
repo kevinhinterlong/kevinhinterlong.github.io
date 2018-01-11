@@ -86,7 +86,7 @@ analytics:
 author:
   name             : "Kevin Hinterlong"
   avatar           : /assets/images/logo.png # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am Sophomore in Computer Science at UIUC."
+  bio              : "I am a Sophomore in Computer Science at UIUC."
   location         : "Champaign, IL"
   email            :
   uri              :
