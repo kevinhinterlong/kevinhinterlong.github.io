@@ -7,7 +7,9 @@ Check it out
 I've added a custom header to load [KaTeX](https://github.com/Khan/KaTeX)
 
 
-The head loads the KaTeX javascript/css
+The head loads the KaTeX javascript/css.
+
+
 [`/_includes/head/custom.html:`](/_includes/head/custom.html)
 ```html
 {% if page.katex %}
@@ -17,6 +19,8 @@ The head loads the KaTeX javascript/css
 ```
 
 The footer calls [`/assets/js/katex_render.js`](/assets/js/katex_render.js) which renders the LaTeX.
+
+
 [`/_includes/footer/custom.html:`](/_includes/footer/custom.html)
 ```html
 {% if page.katex %}
