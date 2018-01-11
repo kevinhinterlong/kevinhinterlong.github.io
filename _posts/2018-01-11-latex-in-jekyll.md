@@ -28,7 +28,7 @@ The footer calls [`/assets/js/katex_render.js`](/assets/js/katex_render.js) whic
 {% endif %}
 ```
 
-Now, thanks to $\KaTeX$ I can render pretty math in the browser
+Now, thanks to $$\KaTeX$$ I can render pretty math in the browser
 
 $$ f(x) = \int_{-\infty}^\infty \hat f(\xi)\,e^{2 \pi i \xi x} \,d\xi $$
 
