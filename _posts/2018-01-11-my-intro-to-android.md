@@ -19,7 +19,7 @@ Currently I have several apps in the [Google Play Store](https://play.google.com
 - [ArchWiki Viewer](https://play.google.com/store/apps/details?id=com.jtmcn.archwiki.viewer) - An application I inherited for viewing the [ArchWiki](https://wiki.archlinux.org/)
 - [HackIllinois 2017](https://play.google.com/store/apps/details?id=org.hackillinois.branding) - The official HackIllinois app for 2017 (not owned by me).
 
-Several of these apps are open source and you can check them out on [my GitHub](https://github.com/kevinhinterlong)
+**Note:** Several of these apps are open source and you can check them out on [my GitHub](https://github.com/kevinhinterlong) {: .notice--info}
 
 
 
