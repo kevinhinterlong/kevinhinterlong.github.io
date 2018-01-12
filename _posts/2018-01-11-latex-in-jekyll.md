@@ -10,19 +10,19 @@ katex: true
 The head loads the [KaTeX](https://github.com/Khan/KaTeX) javascript/css.
 
 
-[`/_includes/head/custom.html:`](/_includes/head/custom.html)
-```html
+[`/_includes/head/custom.html:`](https://github.com/kevinhinterlong/kevinhinterlong.github.io/tree/master/_includes/head/custom.html)
+```
 {% if page.katex %}
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0-alpha2/katex.min.css" integrity="sha384-exe4Ak6B0EoJI0ogGxjJ8rn+RN3ftPnEQrGwX59KTCl5ybGzvHGKjhPKk/KC3abb" crossorigin="anonymous">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0-alpha2/katex.min.js" integrity="sha384-OMvkZ24ANLwviZR2lVq8ujbE/bUO8IR1FdBrKLQBI14Gq5Xp/lksIccGkmKL8m+h" crossorigin="anonymous"></script>
 {% endif %}
 ```
 
-The footer calls [`/assets/js/katex_render.js`](/assets/js/katex_render.js) which renders the LaTeX.
+The footer calls [`/assets/js/katex_render.js`](https://github.com/kevinhinterlong/kevinhinterlong.github.io/tree/master/assets/js/katex_render.js) which renders the LaTeX.
 
 
-[`/_includes/footer/custom.html:`](/_includes/footer/custom.html)
-```html
+[`/_includes/footer/custom.html:`](https://github.com/kevinhinterlong/kevinhinterlong.github.io/tree/master/_includes/footer/custom.html)
+```
 {% if page.katex %}
 <script src="{{ "/assets/js/katex_render.js" | relative_url }}"></script>
 {% endif %}
