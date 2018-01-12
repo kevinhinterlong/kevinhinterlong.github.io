@@ -1,7 +1,12 @@
 ---
 title: "How I got started with Android"
 excerpt: "An overview of where I started and what I did with Android."
+header:
+  teaser: /assets/images/android_preview.jpg
+  og_image: /assets/images/android_preview.jpg
 toc: true
+tags:
+	- android
 ---
 
 ## Where I started

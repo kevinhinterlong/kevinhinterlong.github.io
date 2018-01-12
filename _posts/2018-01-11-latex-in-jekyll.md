@@ -1,7 +1,12 @@
 ---
 title: "LaTeX in Jekyll"
 excerpt: "Using KaTeX to render LaTeX in the browser."
+header:
+  teaser: /assets/images/math_preview.jpg
+  og_image: /assets/images/math_preview.jpg
 toc: true
+tags:
+	- math
 katex: true
 ---
 
