@@ -6,7 +6,7 @@ header:
   og_image: /assets/images/math_preview.jpg
 toc: true
 tags:
-	- math
+  - math
 katex: true
 ---
 

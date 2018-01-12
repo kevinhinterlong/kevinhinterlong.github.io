@@ -6,7 +6,7 @@ header:
   og_image: /assets/images/android_preview.jpg
 toc: true
 tags:
-	- android
+  - android
 ---
 
 ## Where I started
