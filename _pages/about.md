@@ -6,8 +6,6 @@ toc: true
 modified: 2018-01-11T07:31:56+00:00
 ---
 
-{% include base_path %}
-
 All about me.
 
 ## Basic Info
