@@ -9,6 +9,8 @@ tags:
   - android
 ---
 
+{% include base_path %}
+
 ## Where I started
 
 I started Android Development in my Senior year of high school. At first, it was challenging - learning a new framework, a new IDE, designing a GUI. It was a big jump from only developing small CLI applications in Java. 
