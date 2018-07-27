@@ -12,28 +12,31 @@ katex: true
 
 {% include base_path %}
 
-## How I added support for Katex
+## Katex Integration
 
-The head loads the [KaTeX](https://github.com/Khan/KaTeX) javascript/css.
-
-
-[`/_includes/head/custom.html:`](https://github.com/kevinhinterlong/kevinhinterlong.github.io/tree/master/_includes/head/custom.html)
-```html
-{% raw %}{% if page.katex %}
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0-alpha2/katex.min.css" integrity="sha384-exe4Ak6B0EoJI0ogGxjJ8rn+RN3ftPnEQrGwX59KTCl5ybGzvHGKjhPKk/KC3abb" crossorigin="anonymous">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0-alpha2/katex.min.js" integrity="sha384-OMvkZ24ANLwviZR2lVq8ujbE/bUO8IR1FdBrKLQBI14Gq5Xp/lksIccGkmKL8m+h" crossorigin="anonymous"></script>
-{% endif %}{% endraw %}
+### How to use it
+I've added support for [KaTeX](https://github.com/Khan/KaTeX). All you have to do is include `katex: true` in the YAML Front Matter
+```
+---
+katex: true
+---
 ```
 
-The footer calls [`/assets/js/katex_render.js`](https://github.com/kevinhinterlong/kevinhinterlong.github.io/tree/master/assets/js/katex_render.js) which renders the LaTeX.
+### How it works
 
-
-[`/_includes/footer/custom.html:`](https://github.com/kevinhinterlong/kevinhinterlong.github.io/tree/master/_includes/footer/custom.html)
-```html
-{% raw %}{% if page.katex %}
-<script src="{{ "/assets/js/katex_render.js" | relative_url }}"></script>
-{% endif %}{% endraw %}
-```
+1. The [custom header](/_includes/head/custom.html) loads the KaTeX javascript/css.
+	```html
+	{% raw %}{% if page.katex %}
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0-alpha2/katex.min.css" integrity="sha384-exe4Ak6B0EoJI0ogGxjJ8rn+RN3ftPnEQrGwX59KTCl5ybGzvHGKjhPKk/KC3abb" crossorigin="anonymous">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0-alpha2/katex.min.js" integrity="sha384-OMvkZ24ANLwviZR2lVq8ujbE/bUO8IR1FdBrKLQBI14Gq5Xp/lksIccGkmKL8m+h" crossorigin="anonymous"></script>
+	{% endif %}{% endraw %}
+	```
+2. The [custom footer](/_includes/footer/custom.html) calls [`/assets/js/katex_render.js`](/assets/js/katex_render.js) which renders the LaTeX elements.
+	```html
+	{% raw %}{% if page.katex %}
+	<script src="{{ "/assets/js/katex_render.js" | relative_url }}"></script>
+	{% endif %}{% endraw %}
+	```
 
 Now, thanks to $$\KaTeX$$ I can render pretty math in the browser
 
