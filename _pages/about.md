@@ -2,8 +2,8 @@
 permalink: /about/
 title: "About"
 excerpt: "All about Kevin Hinterlong."
+last_modified_at: 2018-07-27T02:07:29Z
 toc: true
-modified: 2018-01-11T07:31:56+00:00
 feature_row:
   - image_path: https://lh3.googleusercontent.com/Wyh6pnSKMvEyR7EK0aQF_BwwbeTTIgyY7MaZn5wYf8-2FC6ls3WdtV4rRj0y9BBGDgA=s360
     alt: "Hackillinois 2018 logo"
