@@ -6,10 +6,6 @@ source "https://rubygems.org"
 #
 gem "github-pages", group: :jekyll_plugins
 gem "minimal-mistakes-jekyll"
-gem "kramdown-math-katex"
-gem "katex"
-gem "execjs"
-gem "duktape"
 
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"

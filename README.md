@@ -14,7 +14,7 @@ $ bundle exec jekyll serve
 ## Katex Integration
 
 ### How to use it
-I've added support for [KaTeX](https://github.com/Khan/KaTeX). All you have to do is include `katex: true` in the YAML Front Matter
+I've added support for [KaTeX](https://github.com/KaTeX/KaTeX). All you have to do is include `katex: true` in the YAML Front Matter
 ```
 ---
 katex: true
@@ -27,15 +27,15 @@ katex: true
 
   ```html
   {% if page.katex %}
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0-alpha2/katex.min.css" integrity="sha384-exe4Ak6B0EoJI0ogGxjJ8rn+RN3ftPnEQrGwX59KTCl5ybGzvHGKjhPKk/KC3abb" crossorigin="anonymous">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0-alpha2/katex.min.js" integrity="sha384-OMvkZ24ANLwviZR2lVq8ujbE/bUO8IR1FdBrKLQBI14Gq5Xp/lksIccGkmKL8m+h" crossorigin="anonymous"></script>
-  {% endif %}
-  ```
-
-2. then the [custom footer](/_includes/footer/custom.html) calls [`/assets/js/katex_render.js`](/assets/js/katex_render.js) which renders the LaTeX elements.
-
-  ```html
-  {% if page.katex %}
-  <script src="{{ "/assets/js/katex_render.js" | relative_url }}"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" integrity="sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js" integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC+Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa" crossorigin="anonymous"></script>
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          renderMathInElement(document.body, {
+              // ...options...
+          });
+      });
+  </script>
   {% endif %}
   ```

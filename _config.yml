@@ -87,8 +87,8 @@ analytics:
 author:
   name             : "Kevin Hinterlong"
   avatar           : /assets/images/logo.png # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am a Sophomore in Computer Science at UIUC and an intern at Oath/Yahoo in Champaign."
-  location         : "Champaign, IL"
+  bio              : "UIUC graduate and Software Developer at Yahoo."
+  location         : 
   email            :
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
@@ -172,9 +172,6 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
-  math_engine: katex
-  math_engine_opts: {}
-
 
 # Sass/SCSS
 sass:

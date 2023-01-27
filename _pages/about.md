@@ -28,21 +28,11 @@ feature_row:
 
 {% include base_path %}
 
-My name is **Kevin Hinterlong**, I'm a **Math & CS** major at the **University of Illinois at Urbana-Champaign**.
-
-While I'm interested in both Math _and_ Computer Science, I'm more interested in Computer Science, especially for independent work.
+My name is **Kevin Hinterlong**, I'm a graduate from the **University of Illinois at Urbana-Champaign**.
 
 I've primarily worked with 
-- Java (+Android)
-- JavaScript (React Native)
-
-{% capture notice-1 %}
-However I've also used C, C++, and Python.
-
-And recently I've been teaching myself Rust and Go.
-{% endcapture %}
-
-<div class="notice--primary">{{ notice-1 | markdownify }}</div>
+- TypeScript/JavaScript (Node, Ember, React, React Native)
+- Java/Kotlin (Android)
 
 
 ## What I have done
