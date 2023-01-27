@@ -8,7 +8,6 @@ header:
 toc: true
 tags:
   - math
-katex: true
 ---
 
 {% include base_path %}
@@ -39,9 +38,9 @@ katex: true
 	{% endif %}{% endraw %}
 	```
 
-Now, thanks to $$\KaTeX$$ I can render pretty math in the browser
+Now, thanks to $$\KaTeX$$ I can render pretty math in the browser server side
 
-$$ f(x) = \int_{-\infty}^\infty \hat f(\xi)\,e^{2 \pi i \xi x} \,d\xi $$
+$$ f(x) = \int_{-\infty}^\infty \hat f(\xi)\,e^{2 \pi i \xi x} \,d\xi $$ 
 
 
 ---
